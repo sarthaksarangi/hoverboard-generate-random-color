@@ -7,11 +7,32 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    display: flex;
+    display: block;
     background-color: #111;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: whitesmoke;
     letter-spacing: 0.1rem;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2rem 5rem;
+    
+
+
+}
+.square{
+    background-color: #1d1d1d;
+    width: 16px;
+    height: 16px;
+    margin: 0.3rem;
+    box-shadow: 0 0 2px #000;
+    transition: 2s ease;
+}
+.square:hover{
+    transition-duration:0s
 }
