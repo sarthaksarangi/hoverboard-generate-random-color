@@ -6,6 +6,7 @@
 }
 
 body{
+    margin: auto;
     font-family: 'Poppins', sans-serif;
     display: block;
     background-color: #111;
@@ -14,6 +15,10 @@ body{
     text-align: center;
     color: whitesmoke;
     letter-spacing: 0.1rem;
+    overflow: hidden;
+    height: 100vh;
+    max-width: 94vh;
+   
 }
 .container{
     display: flex;
@@ -21,6 +26,8 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     margin: 2rem 5rem;
+    
+    
     
 
 
